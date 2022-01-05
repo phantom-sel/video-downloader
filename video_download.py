@@ -56,6 +56,15 @@ def audio_downloader():
 def Anime_Down_Proc():
     print('downloading finished your video/audio in',Save_Path)
 
+def restart_programme():
+    user_input = input("Press (Q)uit or (Y)es").lower()
+    if user_input == 'q':
+        quit()
+    elif user_input == 'y':
+        main_menu()
+    else:
+        print('invalid syntex')
+        restart_programme()
 def main_menu():
     string = "Video Downloader by Phantom"
     new_string = string.center(50,'-')
@@ -73,4 +82,4 @@ def main_menu():
         print('invalid input...')
 
 if __name__=="__main__":
-    main_menu()
+    restart_programme()
