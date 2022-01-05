@@ -57,11 +57,6 @@ def audio_downloader():
 #I desparetly want a animated downloading process...
 # so this func name is *animated_downloading_process* 
 def Anime_Down_Proc():
-    # import os   
-    # Title = yt.title
-    # file_exists = os.path.exists(Title)
-    # while file_exists != True:
-    #     print('please wait...')
     print('downloading finished your video/audio in',Save_Path)
 
 def main_menu():
