@@ -53,9 +53,6 @@ def audio_downloader():
     except:
         print('sorry but choose another bitrate(qulity)')
             
-
-#I desparetly want a animated downloading process...
-# so this func name is *animated_downloading_process* 
 def Anime_Down_Proc():
     print('downloading finished your video/audio in',Save_Path)
 
